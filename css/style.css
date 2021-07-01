@@ -151,7 +151,7 @@ footer {
   background-color: #282828;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  color: grey;
+  color: #b3b3b3;
   padding: 0px 15px;
 }
 
@@ -209,6 +209,7 @@ i:hover {
 .top {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .bot {
@@ -216,26 +217,50 @@ i:hover {
   justify-content: center;
   align-items: center;
   margin-top: 20px;
-}
-
-.time-left,
-.time-right {
-  margin: 0px 20px;
-}
-
-.bot:hover {
   color: white;
+}
+
+.time {
+  margin: 0px 20px;
+  font-size: 11px;
+  color: #b3b3b3;
+}
+
+.bar,
+.loading {
+  height: 4px;
+  border-radius: 20px;
+  cursor: pointer;
 }
 
 .bar {
   background-color: grey;
-  border-radius: 20px;
-  cursor: pointer;
-  height: 4px;
 }
 
-.bar:hover {
+.loading {
+  position: relative;
+  width: 20%;
+  background-color: #b3b3b3;
+}
+
+.bar:hover .loading {
+  background-color: limegreen;
+}
+
+.circle {
+  position: absolute;
+  display: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  left: 90%;
+  top: 50%;
+  transform: translate(0%, -50%);
   background-color: white;
+}
+
+.bar:hover .circle {
+  display: block;
 }
 
 .progress {
@@ -249,4 +274,8 @@ i:hover {
 .right {
   display: flex;
   align-items: center;
+}
+
+.fa-play-circle {
+  font-size: 34px;
 }
