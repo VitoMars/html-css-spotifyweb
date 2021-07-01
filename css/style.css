@@ -56,6 +56,12 @@ h4 {
   color: white;
 }
 
+.crea {
+  display: flex;
+  cursor: pointer;
+  margin: 10px 10px 10px 0px;
+}
+
 .plus-container {
   display: flex;
   height: 40px;
@@ -72,10 +78,10 @@ h4 {
 }
 
 /* Regole Items */
+
 .item {
-  display: flex;
+  margin: 20px 10px 20px 0px;
   cursor: pointer;
-  margin: 10px 10px 10px 0px;
 }
 
 span {
