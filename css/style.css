@@ -10,10 +10,12 @@ body {
 
 /* Nav */
 nav {
+  position: relative;
   display: flex;
   flex-direction: column;
   height: 90vh;
   width: 15vw;
+  min-width: 200px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   background-color: black;
@@ -27,6 +29,7 @@ nav {
 
 .logo img {
   height: 40px;
+  cursor: pointer;
 }
 
 .link {
@@ -48,6 +51,7 @@ nav {
 
 .link:hover {
   border-left: 2px solid green;
+  color: white;
 }
 
 /* Playlist */
@@ -87,18 +91,26 @@ h4 {
   cursor: pointer;
 }
 
+.item:hover,
+span:hover {
+  color: white;
+}
+
 span {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 /* End */
 .end-container {
+  position: absolute;
   display: flex;
+  width: 100%;
   flex-direction: column;
-  justify-content: flex-end;
-  margin: 15px 20px;
+  padding: 15px 20px;
+  bottom: 0;
 }
 
 .download {
