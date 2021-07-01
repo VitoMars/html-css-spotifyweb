@@ -270,11 +270,12 @@ i:hover {
   width: 33.33vw;
 }
 
-.volume {
-  width: 5vw;
-}
-
+/* Destra */
 .right {
   display: flex;
   align-items: center;
+}
+
+.volume {
+  width: 5vw;
 }
