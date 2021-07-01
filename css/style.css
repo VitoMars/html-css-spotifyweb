@@ -94,10 +94,11 @@ span {
 }
 
 /* End */
-.end {
+.end-container {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin: 15px 20px;
 }
 
 .download {
