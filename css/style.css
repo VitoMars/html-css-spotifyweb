@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #141922;
+}
+
 /* Nav */
 nav {
   display: flex;
@@ -78,9 +82,8 @@ h4 {
 }
 
 /* Regole Items */
-
 .item {
-  margin: 20px 10px 20px 0px;
+  margin: 20px 0px;
   cursor: pointer;
 }
 
@@ -88,6 +91,46 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* End */
+.end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.download {
+  display: flex;
+  flex-direction: row;
+}
+
+.download img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.download span {
+  font-size: 14px;
+}
+
+hr {
+  margin: 10px 0px;
+}
+
+.user {
+  display: flex;
+}
+
+.user img {
+  height: 25px;
+  background-color: grey;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user span {
+  color: white;
 }
 
 /* Footer */
