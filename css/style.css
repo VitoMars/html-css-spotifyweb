@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+nav {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 13vw;
+  /* width: 241px; */
+  background-color: black;
+}
+
+.logo {
+  height: 10vh;
+  margin: 24px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  width: 100vw;
+  background-color: #282828;
+}
