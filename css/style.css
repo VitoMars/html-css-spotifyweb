@@ -151,6 +151,8 @@ footer {
   background-color: #282828;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  color: grey;
+  padding: 0px 15px;
 }
 
 /* Sinistra */
@@ -162,7 +164,7 @@ footer {
 
 .left img {
   height: 6vh;
-  padding: 0px 15px;
+  padding-right: 15px;
   cursor: pointer;
 }
 
@@ -178,7 +180,6 @@ footer {
 
 .name {
   font-size: 12px;
-  color: grey;
 }
 
 .author:hover,
@@ -188,15 +189,64 @@ footer {
 }
 
 /* Icone */
-.icon {
-  color: grey;
-  cursor: pointer;
-}
-
 i {
+  cursor: pointer;
   padding: 0px 10px;
 }
 
 i:hover {
   color: white;
+}
+
+/* Centro */
+
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+}
+
+.bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.time-left,
+.time-right {
+  margin: 0px 20px;
+}
+
+.bot:hover {
+  color: white;
+}
+
+.bar {
+  background-color: grey;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 4px;
+}
+
+.bar:hover {
+  background-color: white;
+}
+
+.progress {
+  width: 33.33vw;
+}
+
+.volume {
+  width: 5vw;
+}
+
+.right {
+  display: flex;
+  align-items: center;
 }
