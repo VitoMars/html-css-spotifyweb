@@ -199,7 +199,6 @@ i:hover {
 }
 
 /* Centro */
-
 .center {
   display: flex;
   flex-direction: column;
@@ -259,6 +258,10 @@ i:hover {
   background-color: white;
 }
 
+.fa-play-circle {
+  font-size: 34px;
+}
+
 .bar:hover .circle {
   display: block;
 }
@@ -274,8 +277,4 @@ i:hover {
 .right {
   display: flex;
   align-items: center;
-}
-
-.fa-play-circle {
-  font-size: 34px;
 }
