@@ -1,82 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-   <link rel="stylesheet" href="css/style.css">
-   <title>SpotifyWeb</title>
-</head>
-<body>
-
-   <nav>
-      <!-- Logo -->
-      <div class="logo">
-         <img src="img/logo.svg" alt="">
-      </div>
-
-      <!-- Links -->
-      <div class="link">
-         <img src="img/home.svg" alt="">
-         <span>Home</span>
-      </div>
-
-      <div class="link">
-         <img src="img/search.svg" alt="">
-         <span>Cerca</span>
-      </div>
-
-      <div class="link">
-         <img src="img/libreria.svg" alt="">
-         <span>La tua libreria</span>
-      </div>
-
-      <!-- Playlist -->
-      <div class="playlist-container">
-         <!-- Titolo -->
-         <h4>Playlist</h4>
-
-         <!-- Crea Playlist -->
-         <div class="crea">
-            <div class="plus-container">
-               <div class="plus">+</div>
-            </div>
-            <span>Crea Playlist</span>
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="css/style.css">
+      <title>SpotifyWeb</title>
+   </head>
+   <body>
+      
+      <div class="container">
+         <!-- Left -->
+         <div class="left">
+            <nav>
+               <!-- Logo -->
+               <div class="logo">
+                  <img src="img/logo.svg" alt="">
+               </div>
+            
+               <!-- Links -->
+               <div class="link">
+                  <img src="img/home.svg" alt="">
+                  <span>Home</span>
+               </div>
+            
+               <div class="link">
+                  <img src="img/search.svg" alt="">
+                  <span>Cerca</span>
+               </div>
+            
+               <div class="link">
+                  <img src="img/libreria.svg" alt="">
+                  <span>La tua libreria</span>
+               </div>
+            
+               <!-- Playlist -->
+               <div class="playlist-container">
+                  <!-- Titolo -->
+                  <h4>Playlist</h4>
+            
+                  <!-- Crea Playlist -->
+                  <div class="crea">
+                     <div class="plus-container">
+                        <div class="plus">+</div>
+                     </div>
+                     <span>Crea Playlist</span>
+                  </div>
+            
+                  <!-- Items -->
+                  <div class="menu-item">
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                     <div class="item">Nome Playlist</div>
+                  </div>
+               </div>
+               
+               <!-- End -->
+               <div class="end-container">
+                  <!-- Donwload -->
+                  <div class="download">
+                     <img src="img/download.svg" alt="">
+                     <span>Installa app</span>
+                  </div>
+            
+                  <!-- HR -->
+                  <hr>
+            
+                  <!-- User -->
+                  <div class="user">
+                     <img src="img/profile.svg" alt="">
+                     <span>John Doe</span>
+                  </div>
+               </div>
+            </nav>
          </div>
+         <!-- Fine Left -->
+         <!-- Right -->
+         <div class="right">
+            <div class="content">
 
-         <!-- Items -->
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
-         <div class="item">Nome Playlist</div>
+               <div class="top-bar">
+                  <div class="upgrade">Effettua l'upgrade</div>
+               </div>
+               
+               <div class="section-bar">
+                  <span>In evidenza</span>
+                  <span>Podcast</span>
+                  <span>Classifiche</span>
+                  <span>Generi e Mood</span>
+                  <span>Nuove Uscite</span>
+                  <span>Scopri</span>
+               </div>
+
+            </div>
+         </div>
       </div>
       
-      <!-- End -->
-      <div class="end-container">
-         <!-- Donwload -->
-         <div class="download">
-            <img src="img/download.svg" alt="">
-            <span>Installa app</span>
-         </div>
-
-         <!-- HR -->
-         <hr>
-
-         <!-- User -->
-         <div class="user">
-            <img src="img/profile.svg" alt="">
-            <span>John Doe</span>
-         </div>
-      </div>
-   </nav>
-
-   <footer>
-      <!-- Sinistra -->
-      <div class="left">
+      
+      <footer>
+         <!-- Sinistra -->
+      <div class="footer-left">
          <img src="img/sinister.jpeg" alt="">
          <div class="brano">
             <div class="author">Sinister</div>
@@ -87,9 +115,9 @@
             <i class="far fa-folder"></i>
          </div>
       </div>
-
+      
       <!-- Centro -->
-      <div class="center">
+      <div class="footer-center">
          <div class="top">
             <i class="fas fa-random"></i>
             <i class="fas fa-step-backward"></i>
@@ -110,7 +138,7 @@
       </div>
 
       <!-- Destra -->
-      <div class="right">
+      <div class="footer-right">
          <i class="fas fa-list-ul"></i>
          <i class="fas fa-tv"></i>
          <i class="fas fa-volume-up"></i>
