@@ -114,28 +114,4 @@
   .footer-right i {
     padding: 10px 0px;
   }
-
-  /* Footer */
-  .footer-left,
-  .footer-center,
-  .footer-right {
-    transform: scale(0.9);
-  }
-}
-
-@media (max-width: 320px) {
-  .album {
-    width: calc(100% / 1 - 25px);
-  }
-
-  .upgrade {
-    margin-right: 10px;
-  }
-
-  /* Footer */
-  .footer-left,
-  .footer-center,
-  .footer-right {
-    transform: scale(0.9);
-  }
 }
