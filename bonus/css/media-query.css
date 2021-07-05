@@ -15,16 +15,17 @@
     width: calc(100% / 3 - 25px);
   }
 
+  /* Rimozione barra */
+  .top-bar {
+    display: none;
+  }
+
+  .content {
+    height: 90vh;
+  }
+
   .section-bar span {
     margin: 8px;
-  }
-
-  .upgrade {
-    margin-right: 10px;
-  }
-
-  .upgrade:hover {
-    display: none;
   }
 
   /* Barra laterale */
