@@ -1,0 +1,119 @@
+@media (max-width: 1366px) {
+  .album {
+    width: calc(100% / 5 - 25px);
+  }
+}
+
+@media (max-width: 1024px) {
+  .album {
+    width: calc(100% / 4 - 25px);
+  }
+}
+
+@media (max-width: 768px) {
+  .album {
+    width: calc(100% / 3 - 25px);
+  }
+
+  .section-bar span {
+    margin: 8px;
+  }
+
+  .upgrade {
+    margin-right: 10px;
+  }
+
+  .upgrade:hover {
+    display: none;
+  }
+
+  /* Barra laterale */
+  nav span,
+  nav .crea,
+  nav .menu-item,
+  nav h4 {
+    display: none;
+  }
+
+  .logo {
+    margin: 24px 18px;
+  }
+
+  .logo img:first-child {
+    display: none;
+  }
+  .logo img:nth-child(2) {
+    display: block;
+    height: 30px;
+  }
+
+  nav {
+    width: 70px;
+  }
+
+  nav hr {
+    display: none;
+  }
+
+  .right {
+    width: calc(100% - 70px);
+  }
+
+  footer {
+    padding: 0;
+  }
+
+  /* Footer */
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    width: calc(100% / 3);
+    transform: scale(0.9);
+  }
+}
+
+@media (max-width: 500px) {
+  .album {
+    width: calc(100% / 1 - 25px);
+  }
+
+  .footer-right .bar {
+    display: none;
+  }
+
+  .footer-left,
+  .footer-right {
+    width: calc(100% / 5);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .brano {
+    margin-left: 35px;
+  }
+
+  .footer-center {
+    width: calc(100% / 5 * 3);
+  }
+
+  .footer-right i {
+    padding: 8px 0px;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-right i {
+    padding: 5px 0px;
+  }
+}
