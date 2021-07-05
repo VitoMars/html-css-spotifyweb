@@ -106,7 +106,7 @@ body {
   margin-right: 25px;
   flex-wrap: wrap;
   flex-shrink: 0;
-  width: calc((100% / 6) - 25px);
+  width: calc(100% / 6 - 25px);
 }
 
 .album img {
@@ -302,7 +302,7 @@ footer {
 /* Sinistra */
 .footer-left {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -343,10 +343,12 @@ i:hover {
 }
 
 /* Centro */
+
 .footer-center {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  /* align-items: center; */
 }
 
 .top {
@@ -417,6 +419,7 @@ i:hover {
 /* Destra */
 .footer-right {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 
