@@ -22,7 +22,7 @@ body {
 
 .content {
   width: 100%;
-  height: calc(90vh - 100px);
+  height: calc(835px - 95px);
   padding: 0px 20px;
   overflow-y: scroll;
   /* width: calc(100% - 200px); */
@@ -39,7 +39,6 @@ body {
   background-color: #080b12;
 }
 
-
 .upgrade {
   color: white;
   font-size: 14px;
@@ -51,7 +50,7 @@ body {
   cursor: pointer;
 }
 
-.upgrade:hover{
+.upgrade:hover {
   transform: scale(1.2);
 }
 
@@ -106,24 +105,23 @@ body {
   margin-right: 25px;
   flex-wrap: wrap;
   flex-shrink: 0;
-  width: calc(100% / 6) - 25px);
+  width: calc((100% / 6) - 25px);
 }
 
 .album img {
-  height: 247px;
   width: 100%;
 }
 
-.img{
+.img {
   position: relative;
   width: 100%;
 }
 
-.img:hover{
+.img:hover img {
   opacity: 0.5;
 }
 
-.img i{
+.img i {
   display: none;
   position: absolute;
   color: white;
@@ -133,13 +131,17 @@ body {
   transform: translate(-50%, -50%);
 }
 
-.img:hover i{
+.img:hover i {
   display: block;
+}
+
+.border img {
+  border-radius: 50%;
 }
 
 .album-txt {
   width: 100%;
-  margin:20px auto;
+  margin: 20px auto;
   max-width: 200px;
   text-align: center;
 }
@@ -154,10 +156,11 @@ nav {
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 90vh;
-  /* width: 15vw; */
-  min-width: 230px;
   background-color: black;
+  /* height: 90vh; */
+  height: 835px;
+  /* width: 15vw; */
+  width: 230px;
   color: #707070;
 }
 
@@ -169,6 +172,11 @@ nav {
 .logo img {
   height: 40px;
   cursor: pointer;
+}
+
+.logo img:nth-child(2) {
+  display: none;
+  /* width: 40px; */
 }
 
 .link {
@@ -240,17 +248,14 @@ span {
 
 /* End */
 .end-container {
-  position: absolute;
-  display: flex;
-  width: 100%;
-  flex-direction: column;
   padding: 15px 20px;
-  bottom: 0;
+  margin-top: auto;
 }
 
 .download {
   display: flex;
   flex-direction: row;
+  margin-bottom: 10px;
 }
 
 .download img {
@@ -262,12 +267,9 @@ span {
   font-size: 14px;
 }
 
-hr {
-  margin: 10px 0px;
-}
-
 .user {
   display: flex;
+  margin-top: 10px;
 }
 
 .user img {

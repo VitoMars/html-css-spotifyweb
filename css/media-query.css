@@ -1,0 +1,32 @@
+@media screen and (max-width: 600px) {
+  nav span,
+  nav .crea,
+  nav .menu-item,
+  nav h4 {
+    display: none;
+  }
+
+  .logo {
+    margin: 24px 18px;
+  }
+
+  .logo img:first-child {
+    display: none;
+  }
+  .logo img:nth-child(2) {
+    display: block;
+    height: 30px;
+  }
+
+  nav {
+    width: 70px;
+  }
+
+  nav hr {
+    display: none;
+  }
+
+  .right {
+    width: calc(100% - 70px);
+  }
+}
