@@ -292,6 +292,7 @@ footer {
   display: flex;
   justify-content: space-between;
   height: 10vh;
+  min-height: 80px;
   width: 100vw;
   background-color: #282828;
   color: #b3b3b3;
