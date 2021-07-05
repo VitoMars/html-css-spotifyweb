@@ -83,10 +83,6 @@
     width: calc(100% / 1 - 25px);
   }
 
-  .upgrade {
-    margin-right: 10px;
-  }
-
   .footer-right .bar {
     display: none;
   }
