@@ -78,7 +78,7 @@
   }
 }
 
-@media (max-width: 360px) {
+@media (max-width: 414px) {
   .album {
     width: calc(100% / 1 - 25px);
   }
@@ -108,6 +108,18 @@
   }
 
   .footer-right i {
-    padding: 10px 0px;
+    padding: 8px 0px;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    transform: scale(0.8);
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-right i {
+    padding: 5px 0px;
   }
 }

@@ -22,7 +22,7 @@ body {
 
 .content {
   width: 100%;
-  height: calc(835px - 95px);
+  height: calc(90vh - 95px);
   padding: 0px 20px;
   overflow-y: scroll;
   /* width: calc(100% - 200px); */
@@ -160,8 +160,7 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: black;
-  /* height: 90vh; */
-  height: 835px;
+  height: 90vh;
   /* width: 15vw; */
   width: 230px;
   color: #707070;
@@ -292,7 +291,7 @@ footer {
   bottom: 0;
   display: flex;
   justify-content: space-between;
-  height: 95px;
+  height: 10vh;
   width: 100vw;
   background-color: #282828;
   color: #b3b3b3;
@@ -425,8 +424,4 @@ i:hover {
 
 .volume {
   width: 5vw;
-}
-
-.menu-item {
-  overflow-y: hidden;
 }
