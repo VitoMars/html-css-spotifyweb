@@ -56,15 +56,16 @@ body {
 
 .section-bar {
   display: flex;
-  font-size: 14px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
   text-transform: uppercase;
 }
 
 .section-bar span {
   position: relative;
   margin: 15px;
+  font-size: 14px;
   padding-bottom: 5px;
 }
 
@@ -110,6 +111,8 @@ body {
 
 .album img {
   width: 100%;
+  min-height: 100px;
+  min-width: 100px;
 }
 
 .img {
