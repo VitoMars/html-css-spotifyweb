@@ -202,6 +202,7 @@ nav {
 /* Playlist */
 .playlist-container {
   margin: 15px 20px;
+  overflow: hidden;
 }
 
 h4 {
@@ -231,6 +232,11 @@ h4 {
 }
 
 /* Regole Items */
+.menu-item {
+  height: 80%;
+  overflow-y: auto;
+}
+
 .item {
   margin: 20px 0px;
   cursor: pointer;
